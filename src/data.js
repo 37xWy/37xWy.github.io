@@ -50,10 +50,17 @@ export const featured = [
     stack: "PHP",
     desc: "A comprehensive capstone project featuring personalized diet plans, user tracking functionalities, and database management.",
     link: "https://github.com/37xWy/Capstone-Project",
-    hasCaseStudy: false,
+    hasCaseStudy: true,
     isTransparent: true,
     imagePath: "/images/capstone.webp",
-    from: "#fef3c7", to: "#fde68a"
+    from: "#fef3c7", to: "#fde68a",
+    caseStudyData: {
+      overview: "A fitness ecosystem designed to bridge the gap between user progress and nutritional planning, providing data-driven health insights.",
+      challenge: "Managing complex data relationships between user goals, dynamic workout libraries, and nutritional requirements within a monolithic architecture.",
+      solution: "Engineered a robust relational database schema and a dedicated Admin Dashboard that I architected to handle CRUD operations for exercise libraries and content moderation.",
+      mediaType: "image",
+      mediaUrl: "/images/fitness-showcase.webp"
+    }
   },
   {
     id: "airport-sim",
