@@ -88,6 +88,7 @@ function Home() {
         <div className="nav-links">
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a>
           <a href="#" onClick={(e) => { e.preventDefault(); scrollToSection('projects'); }}>Projects</a>
+          <a href="/docs/resume.pdf" target="_blank" rel="noreferrer">Resume ↗</a>
           <a href="https://github.com/37xWy/" target="_blank" rel="noreferrer">GitHub ↗</a>
         </div>
       </nav>
